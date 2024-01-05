@@ -12,6 +12,8 @@
     "@next/font": "13.2.3",
     "@reduxjs/toolkit": "^1.9.3",
     "bcryptjs": "^2.4.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
     "crypto": "^1.0.1",
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.3",
@@ -19,6 +21,7 @@
     "joi": "^17.8.3",
     "js-cookie": "^3.0.1",
     "jsonwebtoken": "^9.0.0",
+    "lucide-react": "^0.304.0",
     "mkdirp": "^2.1.6",
     "mongoose": "^7.0.0",
     "multer": "^1.4.5-lts.1",
@@ -35,7 +38,9 @@
     "react-redux": "^8.0.5",
     "react-select": "^5.7.0",
     "react-toastify": "^9.1.1",
-    "swr": "^2.1.2"
+    "swr": "^2.1.2",
+    "tailwind-merge": "^2.2.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
