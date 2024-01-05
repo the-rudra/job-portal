@@ -32,7 +32,7 @@ export default function Login() {
     const res = await login_me(formData);
     if(res.success)
     {
-      Cookies.set('token', res?.finalData?.token);
+      Cookies.set('token', res?.finalData?.token,{expires:1});
       localStorage.setItem('user', JSON.stringify(res?.finalData?.user));
       dispatch(setUserData(localStorage.getItem('user') ? JSON.parse(localStorage.getItem('user')) : null));
       Router.push('/');
